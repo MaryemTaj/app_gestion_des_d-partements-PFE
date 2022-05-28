@@ -1,0 +1,2 @@
+SELECT concat(condition_specialite,condition_type_prof,condition_grade) from poste WHERE id_poste=27
+SELECT concat(specialite,' ',type_prof,' ','-',' ',grade,'-') from professeur WHERE id_prof=2
